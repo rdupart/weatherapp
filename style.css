@@ -5,12 +5,12 @@ font-family: 0;
 box-sizing: 0;
 }
 body{
-   background: #222; 
+    background: linear-gradient(135deg, #f0cfc3, #5a7247 ); 
 }
 .card{
     width: 90%;
   max-width: 470px; 
-  background: linear-gradient(135deg, #00feba, #5b548a);
+  background: linear-gradient(135deg, #5a7247,  #f0cfc3 );
   color: #fff;
    margin:100px auto 0;
    border-radius: 20px;
@@ -27,8 +27,8 @@ body{
 .search input{
     border:0;
     outline: 0;
-    background: #ebfffc;
-    color: #555;
+    background: #f0cfc3 ;
+    color: #070707;
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
@@ -39,7 +39,7 @@ body{
 .search button{
     border:0;
     outline: 0;
-    background: #ebfffc;
+    background: #f5fdfc;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -85,4 +85,14 @@ body{
 .humidity, .wind{
 font-size: 28px;
 margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
